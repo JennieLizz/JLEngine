@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{7bf56880-1afd-40f7-ab51-31a0d3a756ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{0264a2ea-db6d-4021-b8d0-89a924213652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphicsAPI">
+      <UniqueIdentifier>{522cb529-53c1-45f0-891d-643d94a3cf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GraphicsAPI">
+      <UniqueIdentifier>{4669f835-52fe-4dbb-a4cb-854d085c0ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphicsPipeline">
+      <UniqueIdentifier>{22bb7723-31eb-4d15-830a-5ba4e4c72011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GraphicsPipeline">
+      <UniqueIdentifier>{4ea271ac-662f-4edb-9dbc-53c9637ff609}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jl_engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="jl_window.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="jl_graphics_vulkan.h">
+      <Filter>Header Files\GraphicsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="jl_graphics.h">
+      <Filter>Header Files\GraphicsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="jl_shaders.h">
+      <Filter>Header Files\GraphicsPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jl_window.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="jl_engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="jl_graphics_vulkan.cpp">
+      <Filter>Source Files\GraphicsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="jl_graphics.cpp">
+      <Filter>Source Files\GraphicsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="jl_shaders.cpp">
+      <Filter>Source Files\GraphicsPipeline</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

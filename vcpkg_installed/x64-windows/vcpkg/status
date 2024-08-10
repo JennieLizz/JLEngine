@@ -1,0 +1,100 @@
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7f3ae7766224acac03fc38ad2eb7ad06afa02d3dd1f351ed0152312faced4f39
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2023-05-04
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d59582820aa4346c584629dec6fe31d3b2a0cdcc93ce8a2fe2b6c1ec89831b20
+Status: install ok installed
+
+Package: fmt
+Version: 10.2.1
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e6909ca61fb62655d9bf24949d195b094d2b6e3c15570a22b8d608978b44db4c
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Status: install ok installed
+
+Package: glfw3
+Version: 3.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8c46d49fe5f6cac2b9f5549ff82e489ef6e246b2c3def3c34b5b01bf9643566b
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: glm
+Version: 1.0.1
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 0de750e6b8a6cafadbba50cf288ebe2a3a6728ab9305eed2b193a4637d5e996a
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: egl-registry
+Version: 2024-01-25
+Architecture: x64-windows
+Multi-Arch: same
+Abi: fac54c622a3e0ed77153499ffbcaef8b6d347f4386ceddbdad7247adb8ce8cbc
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2024-02-10
+Port-Version: 1
+Depends: egl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 55b4df2dcc318268c96ae8f6b5cb52ae4ecc8a582fbd011503519fb50b7e2d2b
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f3cc8e98b0e780e94f58871cb0b04a0508d5a5b29ac617c8e373d0024d73d369
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: vulkan-headers
+Version: 1.3.275.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b84568c96b0d093dc0ff9ea14a6d904c1a48e8f5b20d0f36e78f3fbf51e83f07
+Description: Vulkan header files and API registry
+Status: install ok installed
+
+Package: vulkan-loader
+Version: 1.3.275.0
+Depends: vcpkg-cmake, vcpkg-cmake-config, vulkan-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6ef20340f5a2f642d1f9f63474eeb2f879610b6764e5cde6f8f723587da10f91
+Description: Vulkan Development Tools
+Status: install ok installed
+
+Package: vulkan
+Version: 2023-12-17
+Depends: vcpkg-cmake, vulkan-headers, vulkan-loader
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 29142120ce28af1c3e346302e9e9796c86b4ebb72c7d4a4d110d9728a11af6f1
+Description: A stub package that ensures that Vulkan headers and a loader are available.
+    On Android, the NDK provides a loader at API level 24 or higher.
+Status: install ok installed
+

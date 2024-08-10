@@ -1,0 +1,9 @@
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/lib/glfw3dll.lib
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/bin/glfw3.dll
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/include/GLFW/glfw3.h
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/include/GLFW/glfw3native.h
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/lib/cmake/glfw3/glfw3Config.cmake
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/lib/cmake/glfw3/glfw3Targets.cmake
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/lib/cmake/glfw3/glfw3Targets-debug.cmake
+C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/glfw3_x64-windows/debug/lib/pkgconfig/glfw3.pc

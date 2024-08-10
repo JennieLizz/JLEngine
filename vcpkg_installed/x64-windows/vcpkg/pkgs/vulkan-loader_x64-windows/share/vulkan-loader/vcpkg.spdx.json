@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/vulkan-loader-x64-windows-1.3.275.0-7db7013e-bd86-4acb-bf40-447ac2c8c5a9",
+  "name": "vulkan-loader:x64-windows@1.3.275.0 6ef20340f5a2f642d1f9f63474eeb2f879610b6764e5cde6f8f723587da10f91",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-7d353e869753e5609a1f1a057df3db8fd356e49d"
+    ],
+    "created": "2024-08-10T13:12:42Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "vulkan-loader",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.3.275.0",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@53fab978fa1af1363dd629deaedda328acafa01e",
+      "homepage": "https://github.com/KhronosGroup/Vulkan-Loader",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Vulkan Development Tools",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "vulkan-loader:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "6ef20340f5a2f642d1f9f63474eeb2f879610b6764e5cde6f8f723587da10f91",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "KhronosGroup/Vulkan-Loader",
+      "downloadLocation": "git+https://github.com/KhronosGroup/Vulkan-Loader@vulkan-sdk-1.3.275.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "965bfeb238d088f80d36a3a5711be5de48c7c8547710bc0b0888ff36e5b36d37eb540c02e7aec04e4bf21129cfccd2e31e700010c7caecfd35403ba8e619beee"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/Jennie/AppData/Local/vcpkg/registries/git-trees/53fab978fa1af1363dd629deaedda328acafa01e/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7ae27e55020d6836fb7f5b27e88d738a7e6d9324545011bb9023a1701436f6da"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/Jennie/AppData/Local/vcpkg/registries/git-trees/53fab978fa1af1363dd629deaedda328acafa01e/usage",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "26d1cc5fff0e4cbd1c1be98a922d92dbf3ac92a9d02d8139d01792bc03d31c3a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/Jennie/AppData/Local/vcpkg/registries/git-trees/53fab978fa1af1363dd629deaedda328acafa01e/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "96e6540ada0cd5f095bbbcfa0d455fe406e7ea1ce69d69f3b6befa3f9e9c67d4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

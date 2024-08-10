@@ -1,0 +1,16 @@
+﻿extensions: designer.cs generated.cs
+// Copyright (c) 2024 Jennie Scinocca
+//-----------------------------------
+
+extensions: .cs .cpp .h
+// Copyright (c) 2024 Jennie Scinocca
+//-----------------------------------
+
+extensions: .aspx .ascx
+<%-- 
+Copyright (c) 2024 Jennie Scinocca
+--%>
+extensions:  .xml .config .xsd
+<!--
+Copyright (c) 2024 Jennie Scinocca
+-->
