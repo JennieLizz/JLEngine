@@ -1,5 +1,0 @@
-set(DETECTED_Vulkan_FOUND "TRUE")
-set(DETECTED_Vulkan_VERSION "1.3.275")
-set(DETECTED_Vulkan_INCLUDE_DIRS "C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/x64-windows/include")
-set(DETECTED_Vulkan_LIBRARIES "C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/x64-windows/debug/lib/vulkan-1.lib")
-set(DETECTED_ANDROID_NATIVE_API_LEVEL "")

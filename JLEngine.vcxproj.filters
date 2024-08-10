@@ -33,43 +33,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="jl_engine.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="jl_window.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="jl_graphics_vulkan.h">
-      <Filter>Header Files\GraphicsAPI</Filter>
-    </ClInclude>
-    <ClInclude Include="jl_graphics.h">
-      <Filter>Header Files\GraphicsAPI</Filter>
-    </ClInclude>
-    <ClInclude Include="jl_shaders.h">
-      <Filter>Header Files\GraphicsPipeline</Filter>
-    </ClInclude>
-    <ClInclude Include="defines.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="jl_window.cpp">
-      <Filter>Source Files\Engine</Filter>
+    <ClCompile Include="src\engine\jl_engine.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="jl_engine.cpp">
-      <Filter>Source Files\Engine</Filter>
+    <ClCompile Include="src\engine\jl_window.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="jl_graphics_vulkan.cpp">
-      <Filter>Source Files\GraphicsAPI</Filter>
+    <ClCompile Include="src\graphics\jl_graphics.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="jl_graphics.cpp">
-      <Filter>Source Files\GraphicsAPI</Filter>
+    <ClCompile Include="src\graphics\jl_graphics_vulkan.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="jl_shaders.cpp">
-      <Filter>Source Files\GraphicsPipeline</Filter>
+    <ClCompile Include="src\shaders\jl_shaders.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\engine\jl_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\jl_graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics\jl_graphics_vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaders\jl_shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\jl_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

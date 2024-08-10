@@ -1,5 +1,0 @@
-C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/vulkan-loader_x64-windows/lib/vulkan-1.lib
-C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/vulkan-loader_x64-windows/bin/vulkan-1.dll
-C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/vulkan-loader_x64-windows/lib/cmake/VulkanLoader/VulkanLoaderConfig.cmake
-C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/vulkan-loader_x64-windows/lib/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake
-C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/x64-windows/vcpkg/pkgs/vulkan-loader_x64-windows/lib/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake

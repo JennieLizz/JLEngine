@@ -1,2 +1,0 @@
-C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/vcpkg/blds/vulkan/x64-windows-dbg/CMakeFiles/edit_cache.dir
-C:/Users/Jennie/source/repos/JLEngine/vcpkg_installed/vcpkg/blds/vulkan/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
