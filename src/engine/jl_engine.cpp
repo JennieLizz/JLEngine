@@ -11,7 +11,7 @@
 #include <filesystem>
 #include <string>
 
-JlEngine::JlEngine() {
+void JlEngine::Init() {
   bool shaderCompile = JlVulkanShaders::compile();
 
   JlWindow* window = new JlWindow(1280, 720, "JLE_APP");

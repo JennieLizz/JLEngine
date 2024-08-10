@@ -13,7 +13,7 @@ using namespace filesystem;
 class JlEngine
 {
 public:
-  JLEngine_API JlEngine();
+  JLEngine_API static void Init();
   void shutdown();
 };
 
